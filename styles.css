@@ -1,11 +1,28 @@
-* {
+body {
     font-family: 'Nunito', sans-serif;
+    text-align: center;
+
 }
+
 img {
-    border-radius: 15px 50px;
+    border-radius: 50px;
     width: 300px;
 }
 
+.title {
+    font-size: 25px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 52px;
+  }
+
+/* 
 
 .flex-container {
     display: flex;
@@ -23,3 +40,7 @@ img {
 ul {
     list-style-type: none;
 }
+
+/* display: flex;
+align-items: center;
+justify-content: center; */ 
