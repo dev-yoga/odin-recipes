@@ -22,6 +22,20 @@ img {
     gap: 52px;
   }
 
+.instructions {
+    display: flex;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ol {
+    margin: 0;
+    padding: 1;
+}
 /* 
 
 .flex-container {
